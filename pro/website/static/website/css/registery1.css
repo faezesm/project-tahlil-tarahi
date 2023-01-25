@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color:#AEDB67;
+	background-image: url("cartoon-illustration-small-dorm-room-dormitory-interior-inside-hostel-bedroom_1441-1836.webp");
+	background-position:left;
+    background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:contain;
+}
+.form{
+	font-family: "B Titr";
+}
+.submit{
+	font-family: "B Titr";
+background-color: green;
+	color: aliceblue;
+	width: 50px;
+	margin-right: 50px;
+	border-radius:2px 5px 2px 5px;
+cursor: pointer;
+}
+.titr{
+	text-align: center;
+	font-family: "B Titr";
+	border: solid;
+    margin-left: 1050px;
+	margin-right: 5px;
+	margin-top: 5px;
+	background-color: green;
+	color:white;
+	border-color: black;
+}
+.taid{
+	color: white;
+}

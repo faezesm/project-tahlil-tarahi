@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+direction: rtl;
+	background-color:#DBBB79;
+	background-image:url("424.jpg");
+	background-position:left;
+    background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:contain;
+}
+.logo{
+	position: fixed;
+	bottom: 5px;
+    left: 2px;
+	width: 100px;
+		opacity: 0.7;
+
+}
+.logo:hover{
+	opacity:1;
+	cursor: pointer;
+}
+.titr{
+	text-align: center;
+	font-family: "B Titr";
+	border: solid;
+	border-color: black;
+    margin-left: 1000px;
+	margin-right: 15px;
+	margin-top: 5px;
+	background-color:#A95D8D;
+	color: white;
+}
+.div1{
+	width: 390px;
+	height: 390px;
+	border: solid;
+	margin-right: 5px;
+	
+}
+.h2{
+	font-family:"B Badr";
+}
+.h1{
+		font-family:"B Badr";
+
+}
+.submit{
+	background-color:#A95D8D;
+	color: white;
+	margin-right:360px;
+    right:300px;
+	height: 30px;
+	width: 40px;
+	border-color: #102602;
+	font-family:'B Titr';
+	cursor: pointer;
+}
+.textarea{
+	margin-right: 12px;
+	font-family: "B Badr";
+}

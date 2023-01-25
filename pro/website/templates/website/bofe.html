@@ -1,0 +1,59 @@
+{% load static %}
+
+<html>
+<head>
+<meta charset="utf-8">
+<title>بوفه</title>
+	<link rel="stylesheet" href="{% static 'website/css/boofe.css' %}">
+</head>
+<body>
+	<h1 class="titr">بوفه</h1>
+		<a href="/first">
+		<img class="logo" src="{% static 'website/jpeg/logonomy-1671597503513.jpeg' %}" alt="not exist">
+
+	</a>
+	<h3 class="h3">کالای مدنظر خود را انتخاب نمایید.</h3>
+	<form>
+	 <b> <label>&nbsp; &nbsp; مواد غذایی&nbsp; :&nbsp; &nbsp;</label></b>
+	  &nbsp;
+<select >
+	<option value="1">  روغن </option>
+	<option value="2">  رب گوجه فرنگی </option>
+	<option value="3">  ماکارونی </option>
+	<option value="4">  تن ماهی </option>
+     <option value="5"> سویا </option>
+	  </select><br>
+			<b><label>&nbsp; &nbsp; مواد شوینده&nbsp; :&nbsp; &nbsp;&nbsp;</label></b>	
+<select >
+	<option value="1"> مایع ظرفشویی </option>
+	<option value="2">  شامپو </option>
+	<option value="3">  صابون </option>
+	<option value="4"> شامپو بدن  </option>
+     <option value="5"> نرم کننده </option>
+	  </select><br>
+						<b><label>&nbsp; &nbsp; لبنیات&nbsp; &nbsp; &nbsp; &nbsp; :&nbsp; &nbsp; &nbsp; </label></b>
+
+		<select >
+	<option value="1">  شیر  پاکتی        </option>
+	<option value="2">  پنیر </option>
+	<option value="3">  ماست </option>
+	<option value="4">  کره </option>
+     <option value="5"> خامه </option>
+	  </select>
+</form>
+<br>
+<textarea class="text" cols="30" rows="5" >توضیحات:</textarea><br>
+	<button onClick="MyMessage();" type="submit" value="ثبت درخواست"   class="submit">ثبت</button>
+	<p id="Result"></p>
+<script>
+
+function MyMessage(){
+ document.getElementById("Result").innerHTML = "درخواست شما با موفقیت ثبت گردید!";
+}
+
+</script>
+
+
+
+	</body>
+</html>

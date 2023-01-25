@@ -1,0 +1,104 @@
+
+@charset "utf-8";
+/* CSS Document */
+.body{
+	background-color:#FCE4B1;
+	
+}
+
+.contain {
+	
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 170px;
+	border: double;
+	background-color:blanchedalmond;
+	
+}
+.title{
+text-align: center;
+	font-size: 36px;
+	font-family: "B Titr";
+	
+}
+.back{
+	
+	width: 90%;
+    margin-left: auto;
+	margin-right: auto;
+	height:600px;
+	border-image-width: auto;
+	border:solid;
+	background-image:url("asli1.jpg");
+	background-position: center;
+	opacity: 0.8;
+	background-repeat: no-repeat;
+	background-size:cover;
+	margin-top:30px;
+}
+.img{opacity: 0.3;
+}
+.menu {
+	width: 90%;
+	height: 60px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom:auto;
+
+}
+nav{
+	float: left;
+	width:100%;
+	text-align: right;
+	margin-top:2.3px;
+	margin-right:20px;
+	margin-left: auto;
+	background:#D5C298;
+	margin-bottom: 2.3px;
+	border: solid;
+	align-items: center;
+}
+ nav ul {
+	list-style:none;
+	float:right;
+
+	
+}
+nav ul li {
+	float:right;
+	margin-bottom: 2px;
+	font-size: 20px;
+list-style: none;
+	text-align: left;
+	margin-right: 25px;
+	letter-spacing: 2px;
+	font-weight: bold;
+	transition: all 0.3s linear;
+}
+nav ul li a{
+	border: solid;
+	border-color:#8F6C2C;
+	color:black;
+	padding: 10px;
+	text-decoration: none;
+	font-family:"B Badr";
+	border-radius: 5px 5px 5px 5px;
+	font-size: 25px;
+	
+	
+}
+.akhbar{
+	height: 300px;
+	width: 90%;
+	border: solid;
+	margin-left: auto;
+	margin-right: auto;
+}
+.ifram1{
+	width: 331px;
+	height: 292px;
+	margin-top: 2px;
+	margin-bottom: 5px;
+}
+

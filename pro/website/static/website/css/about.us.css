@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-image: url("300.webp");
+}
+.div1{display: inline;
+	width:500px;height: 500px;
+	background-color:#BE7BFA;
+	float: right;
+	opacity: 0.5;
+	border: groove;
+	margin-right: 20px;
+	margin-top: 20px;
+}
+.div1:hover{
+	opacity:1;
+	cursor: pointer;
+}
+.p{
+	font-family: "B Badr";
+	font-size: 20px;
+}
+.div2{
+	width: 200px;height: 180px;
+	float: left;margin-top: 200px;
+	margin-left: 90px;
+	background-color: #BD3FF2;
+	border: ridge;
+	border-color:#5F0286;
+	border-radius: 5px 5px 5px 5px;
+	
+}
+.p2{
+	color: white;
+	margin-top: 5px;
+	font-family:"B Titr";
+	font-size: 40px;
+	direction: rtl;	
+}
+.logo{
+	position: fixed;
+	bottom: 5px;
+    left: 2px;
+	width: 100px;
+		opacity: 0.7;
+
+}
+.logo:hover{
+	opacity:1;
+	cursor: pointer;
+}
+.div3{
+	display: inline;
+	width:400px;
+	height:400px;
+	background-color:#BE7BFA;
+	float: right;
+	opacity: 0.5;
+	border: groove;
+	margin-right: 20px;
+	margin-top: 270px;
+}
+.div3:hover{
+	opacity:1;
+	cursor: pointer;
+}

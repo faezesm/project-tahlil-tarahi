@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color:#FDF3AD;
+	background-image: url("7.jpg");
+	background-position:left;
+    background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:contain;
+}
+.password{
+	border-radius:8px 8px 8px 8px;
+		background-color:#FFD700;
+		right: 130px;
+	height: 30px;
+		margin-top: 120px;
+			margin-right:100px;
+
+}
+
+.password1{
+		border-radius:8px 8px 8px 8px;
+	background-color:#FFD700;
+	right: 130px;
+		margin-right:100px;
+		margin-top: 5px;
+	height: 30px;
+}
+
+.login{
+	background-color:green;
+	color: white;
+	height: 30px;
+border: solid;
+	border-color: #102602;
+			margin-right:2px;
+	margin-left: 85px;
+			border-radius:2px 5px 2px 5px;
+		font-family:'B Titr';
+	cursor: pointer;
+	
+}
+.login1{
+		background-color:green;
+	color: white;
+			margin-right:160px;
+		height: 30px;
+border: solid;
+	border-color: #102602;
+			border-radius:2px 5px 2px 5px;
+	font-family:'B Titr';
+		cursor: pointer;
+
+}
+.onvan{
+	color:#F8070B;
+text-align: center;
+}
+.a{
+	margin-right:368px;
+	margin-top: 130px;
+	position:absolute;
+    font-family: 'Open Sans Condensed', sans-serif;
+    line-height: 18px;
+    right:50px;
+    width: 10px;
+    height: 5px;
+    text-align: center;
+    border-radius: 10px;
+    opacity: .3;
+	background-image: url("8.jpg");
+}
+
+.b{
+	width: 366px;
+	height: 400px;
+	display: inline;
+	float: right;
+	background-image: url("8.jpg");
+	margin-top: 100px;
+	margin-right: 58px;
+}
+.vorod{
+	color: white;
+}
+.sabtnam{
+		color: white;
+
+}

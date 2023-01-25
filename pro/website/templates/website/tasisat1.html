@@ -1,0 +1,58 @@
+{% load static %}
+
+<html>
+<head>
+<meta charset="utf-8">
+<title>تاسیسات و نظافت</title>
+	<link rel="stylesheet" href="{% static 'website/css/tasisat.css' %}">
+</head>
+<body>
+	<h1 class="titr">تاسیسات و نظافت</h1><br>
+			<a href="/first">
+	<img class="logo" src="{% static 'website/jpeg/logonomy-1671597503513.jpeg' %}" alt="not exist">
+		</a>
+	<b><h3 class="titr1">درصورت درخواست نظافت کلید زیر را فشار دهید.</h3></b>
+					<button onclick="MyMessage1();" type="submit" value="ارسال درخواست" class="nezafat">درخواست نظافت</button><br><br>
+			<p id="Result1"></p>
+<script>
+function MyMessage1(){
+ document.getElementById("Result1").innerHTML = "درخواست نظافت ثبت گردید!";
+}
+</script>
+	
+	
+		<b><h3 class="h3">درغیر این صورت، مشکل مدنظر خود را انتخاب نمایید.</h3></b>
+
+
+		<li><label><b>درب</b></label>
+        <input type="radio"></li>
+			
+		<li><label><b>لامپ</b></label>
+        <input type="radio"></li>
+	
+		<li><label><b>یخچال</b></label>
+        <input type="radio"></li>
+	
+		<li><label><b>آب</b></label>
+        <input type="radio"></li>
+	
+		<li><label><b>برق</b></label>
+        <input type="radio"></li>
+	
+		<li><label><b>گاز</b></label>
+        <input type="radio"></li>
+	
+		<li><label><b>سایر</b></label>
+         <input type="radio"></li>
+	<textarea class="text" cols="30" rows="5" >توضیحات:</textarea><br>
+	<button onclick="MyMessage();" type="submit" value="ثبت درخواست" class="submit">ثبت</button>
+		<p id="Result"></p>
+<script>
+function MyMessage(){
+ document.getElementById("Result").innerHTML = "درخواست شما ثبت گردید!";
+}
+
+</script>
+	
+	</body>
+</html>

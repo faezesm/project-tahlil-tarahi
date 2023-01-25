@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin: 0px;
+padding: 0px;
+}
+.titr{
+	background-color: #A35F32;
+	text-align: center;
+	font-family: "B Titr";
+	border: solid;
+    margin-left: 920px;
+	margin-right: 5px;
+	margin-top: 5px;
+	color:white;
+	border-color: black;
+}
+.titr1{
+	margin-right: 10px;
+	font-family: "B Badr";
+	font-size: 20px;
+}
+body{
+direction: rtl;
+	background-color:burlywood;
+	background-image: url("1.jpg");
+	background-position:left;
+    background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:contain;
+}
+.logo{
+	position: fixed;
+	bottom: 5px;
+    left: 2px;
+	width: 100px;
+		opacity: 0.7;
+
+}
+.logo:hover{
+	opacity:1;
+	cursor: pointer;
+}
+.h3{
+	font-family:"B Badr";
+	margin-right: 10px;
+	font-size: 20px;
+}
+label{
+	font-family: "B Badr";
+}
+li{
+	margin-right: 27px;
+}
+
+.text{
+	font-family: "B Badr";
+			margin-right: 10px;
+	color: red;
+}
+.submit{
+	background-color: #A35F32;
+	color: white;
+		margin-right:180px;
+    right:300px;
+	height: 30px;
+	width: 40px;
+	border-color: #102602;
+		font-family:'B Titr';
+	cursor: pointer;
+}
+.nezafat{
+		background-color: #A35F32;
+	color: white;
+		margin-right:80px;
+    right:300px;
+	height: 30px;
+	width: 90px;
+	border-color: #102602;
+		font-family:'B Titr';
+	cursor: pointer;
+}
